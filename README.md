@@ -1,7 +1,7 @@
 ### ACE Metric: Advection and Convection Evaluation for Accurate Weather Forecasting
 
 ---
-paper link : 
+paper link : https://arxiv.org/abs/2406.04678
 
 ---
 
