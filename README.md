@@ -46,7 +46,7 @@ def ACE(t2, t1, gt):
     map11 = map11 + flow2[..., 0]
     map22 = map22 + flow2[..., 1]   
     
-    remapped2 = cv2.remap(gt, map1.astype(np.float32), map2.astype(np.float32), interpolation=cv2.INTER_LINEAR)
+    remapped2 = cv2.remap(gt, map11.astype(np.float32), map22.astype(np.float32), interpolation=cv2.INTER_LINEAR)
     
     CE1 = abs(t1 - remapped1)
     CE2 = abs(t1 - remapped2)
